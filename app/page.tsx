@@ -31,7 +31,7 @@ export default function Home() {
           with a strong interest in building practical, user-focused systems.</p>
 
         <div className="flex p-2  space-x-10 ml-4 justify-center">
-          <Link href="CV_Darwin_Umengan.pdf" download="CV_Darwin_Umengan.pdf">
+          <Link href="Copy of Darwin Umengan" download="Copy of Darwin Umengan">
             <button className=" h-10 w-30 mr-25 bg-red-400 rounded-4xl mt-1 hover:bg-red-300 text-black transition-all duration-300 hover:scale-110">Download CV</button>
           </Link>
           
