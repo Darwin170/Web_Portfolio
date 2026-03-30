@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <div className="font-mono p-4 md:p-8 lg:p-12">
         
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-7xl mx-auto gap-10">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-7xl mx-auto gap-5">
           
           <div className="flex-1 text-center lg:text-left">
             <div className="border-b-2 border-black inline-block lg:block">
