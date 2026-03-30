@@ -36,7 +36,7 @@ export default function Home() {
 
               <div className="flex gap-5">
                 <SocialIcon className="transition-all duration-300 hover:scale-110" url="https://www.facebook.com/darwin.umengan.7" />
-                <SocialIcon className="transition-all duration-300 hover:scale-110" url="https://www.linkedin.com/in/darwin-umengan-1b0129396?utm_source=share_via&utm_content=profile&utm_medium=member_ios&fbclid=IwY2xjawQ3SCpleHRuA2FlbQIxMABicmlkETFsVDZGbFZwaFZaNUdFejJKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHnc4U5Tv-0sgkuK51_K2VLfq2RVLUhKynMnoHDsr3q-GdAsC02OrLzPKjyVm_aem_FVe6gP4P_CS1nHGy2bwZgQ" />
+                <SocialIcon className="transition-all duration-300 hover:scale-110" url="https://www.linkedin.com/in/darwin-umengan-1b0129396/" />
                 <SocialIcon className="transition-all duration-300 hover:scale-110" url="https://github.com/Darwin170" />
               </div>
             </div>
