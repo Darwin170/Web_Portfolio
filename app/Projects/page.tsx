@@ -21,14 +21,34 @@ const Projects = () => {
             </div>
 
             <ul className="list-disc space-y-4 pl-8 text-xl md:text-2xl font-bold max-w-md mx-auto lg:mx-0">
-              <li className="hover:text-red-500 transition-colors cursor-default">
-                Vaccibite
+              <li className="hover:text-red-500 transition-colors cursor-pointer">
+                <a 
+                  href="https://github.com/Darwin170/Vaccibite" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Vaccibite
+                </a>
               </li>
-              <li className="hover:text-red-500 transition-colors cursor-default">
-                Web Portfolio
+              
+              <li className="hover:text-red-500 transition-colors cursor-pointer">
+                <a 
+                  href="https://github.com/Darwin170/Web_Portfolio" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Web Portfolio
+                </a>
               </li>
-              <li className="hover:text-red-500 transition-colors cursor-default">
-                Lutong Mang Kanor
+              
+              <li className="hover:text-red-500 transition-colors cursor-pointer">
+                <a 
+                  href="https://github.com/Darwin170/CCOBJPGL_PROJECT_INF221" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Lutong Mang Kanor
+                </a>
               </li>
             </ul>
           </div>
