@@ -5,15 +5,15 @@ import { SocialIcon } from 'react-social-icons'
 
 export default function Home() {
   return (
-    <>
+    /* Added min-h-screen and bg-gray-400 to match your theme */
+    <div className="min-h-screen bg-gray-400">
       <Navbar />
       <div className="font-mono p-4 md:p-8 lg:p-12">
-       
+        
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-7xl mx-auto gap-10">
           
-      
           <div className="flex-1 text-center lg:text-left">
-            <div className="border-b-2 inline-block lg:block">
+            <div className="border-b-2 border-black inline-block lg:block">
               <h1 className="text-3xl md:text-5xl font-bold pb-2">
                 Hi! I'm Darwin Umengan
               </h1>
@@ -28,7 +28,6 @@ export default function Home() {
               with a strong interest in building practical, user-focused systems.
             </p>
 
-         
             <div className="flex flex-col items-center lg:items-start gap-8 mt-10">
               <Link href="Copy of Darwin Umengan.pdf" download="Copy of Darwin Umengan.pdf">
                 <button className="h-12 px-8 bg-red-400 rounded-full hover:bg-red-300 text-black font-bold transition-all duration-300 hover:scale-110 shadow-lg">
@@ -44,7 +43,6 @@ export default function Home() {
             </div>
           </div>
 
-      
           <div className="relative group w-64 h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[500px] transition-all duration-300 hover:scale-105 rounded-3xl overflow-hidden shadow-2xl">
             <img
               src="nologo.jpg"
@@ -60,6 +58,6 @@ export default function Home() {
 
         </div>
       </div>
-    </>
+    </div>
   );
 }
