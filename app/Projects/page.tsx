@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="font-mono p-6 md:p-12 max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row-reverse items-center lg:items-start justify-between gap-10">
           
-          <div className="w-full max-w-md lg:max-w-xl flex justify-center lg:justify-end">
+          <div className="w-full max-w-sm md:max-w-md lg:max-w-xl flex justify-center lg:justify-end">
             <ImageDissolve />
           </div>
 
