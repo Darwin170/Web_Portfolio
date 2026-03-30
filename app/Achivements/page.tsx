@@ -8,7 +8,7 @@ const ACHIEVEMENTS = () => {
       <div className="font-mono p-6 md:p-12 max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row-reverse items-center lg:items-start justify-between gap-12">
           
-          {/* Image/GIF Section */}
+     
           <div className="w-full max-w-md lg:max-w-xl">
             <img 
               className="w-full h-auto object-cover transition-all duration-300 hover:scale-105 rounded-3xl shadow-xl" 
@@ -17,7 +17,7 @@ const ACHIEVEMENTS = () => {
             />
           </div>
 
-          {/* Text Content Section */}
+
           <div className="w-full flex-1">
             <div className="border-b-2 pb-4 mb-6 text-center lg:text-left">
               <h1 className="text-3xl md:text-4xl font-bold text-black uppercase">
@@ -29,10 +29,10 @@ const ACHIEVEMENTS = () => {
               Dean's Lister
             </h2>
 
-            {/* List Containers */}
+            
             <div className="flex flex-col sm:flex-row gap-10 lg:gap-16">
               
-              {/* First Column */}
+          
               <ul className="list-disc space-y-6 pl-5 flex-1">
                 <div className="border-b-2 pb-4">
                   <li className="font-bold text-xl">1st Honor Dean's Lister 1st Term</li>
@@ -53,7 +53,7 @@ const ACHIEVEMENTS = () => {
                 </div>
               </ul>
 
-              {/* Second Column */}
+     
               <ul className="list-disc space-y-6 pl-5 flex-1 border-l-0 sm:border-l-2 sm:pl-10 border-black">
                 <div className="border-b-2 pb-4">
                   <li className="font-bold text-xl">1st Honor Dean's Lister 2nd Term</li>
