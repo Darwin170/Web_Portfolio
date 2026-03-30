@@ -2,48 +2,64 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "./components/Navbar";
 import { SocialIcon } from 'react-social-icons'
+
 export default function Home() {
   return (
-    
-         <>
-         <Navbar/>
-         <div className="font-mono p-4">
-      <div className="group relative float-right h-120 w-100 mr-40 transition-all duration-300 hover:scale-110 rounded-4xl overflow-hidden z-0">
-        <img
-          src="nologo.jpg"
-          alt="profile"
-          className="h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-0" />
-
-        <img
-          src="profile.jpg"
-          alt="profile-hover"
-          className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-3000 group-hover:opacity-100" />
-      </div>
-
-      <div className="text-5xl font-bold ml-20 pt-35 w-146 border-b-2 ">
-        <h1> Hi! I'm Darwin Umengan</h1>
-      </div>
-      <div className="text-3xl pl-20 flex font-bold">
-        <h2> Web Developer | Karate Practitioner</h2>
-      </div>
-      <div className="text-gray-800 ml-20 mt-7 w-150 font-bold ">
-        <p>I am a BSIT student at National University specializing in Mobile and Web Application Development,
-          with a strong interest in building practical, user-focused systems.</p>
-
-        <div className="flex p-2  space-x-10 ml-4 justify-center">
-          <Link href="Copy of Darwin Umengan.pdf" download="Copy of Darwin Umengan.pdf">
-            <button className=" h-10 w-30 mr-25 bg-red-400 rounded-4xl mt-1 hover:bg-red-300 text-black transition-all duration-300 hover:scale-110">Download CV</button>
-          </Link>
+    <>
+      <Navbar />
+      <div className="font-mono p-4 md:p-8 lg:p-12">
+       
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-7xl mx-auto gap-10">
           
+      
+          <div className="flex-1 text-center lg:text-left">
+            <div className="border-b-2 inline-block lg:block">
+              <h1 className="text-3xl md:text-5xl font-bold pb-2">
+                Hi! I'm Darwin Umengan
+              </h1>
+            </div>
+            
+            <h2 className="text-xl md:text-3xl font-bold mt-4">
+              Web Developer | Karate Practitioner
+            </h2>
+            
+            <p className="text-gray-800 mt-6 max-w-xl mx-auto lg:mx-0 font-bold">
+              I am a BSIT student at National University specializing in Mobile and Web Application Development,
+              with a strong interest in building practical, user-focused systems.
+            </p>
 
-        </div>
-        <div className="flex mt-15 gap-5 transition-all duration-300 hover:-translate-y-1 hover:scale-110 ">
-          <SocialIcon className="transition-all duration-300 hover:scale-110" url="https://www.facebook.com/darwin.umengan.7" />
-          <SocialIcon className="transition-all duration-300 hover:scale-110" url="https://www.instagram.com/itsss.dar/" />
-          <SocialIcon className="transition-all duration-300 hover:scale-110" url="https://github.com/Darwin170" />
+         
+            <div className="flex flex-col items-center lg:items-start gap-8 mt-10">
+              <Link href="Copy of Darwin Umengan.pdf" download="Copy of Darwin Umengan.pdf">
+                <button className="h-12 px-8 bg-red-400 rounded-full hover:bg-red-300 text-black font-bold transition-all duration-300 hover:scale-110 shadow-lg">
+                  Download CV
+                </button>
+              </Link>
+
+              <div className="flex gap-5">
+                <SocialIcon className="transition-all duration-300 hover:scale-110" url="https://www.facebook.com/darwin.umengan.7" />
+                <SocialIcon className="transition-all duration-300 hover:scale-110" url="https://www.instagram.com/itsss.dar/" />
+                <SocialIcon className="transition-all duration-300 hover:scale-110" url="https://github.com/Darwin170" />
+              </div>
+            </div>
+          </div>
+
+      
+          <div className="relative group w-64 h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[500px] transition-all duration-300 hover:scale-105 rounded-3xl overflow-hidden shadow-2xl">
+            <img
+              src="nologo.jpg"
+              alt="profile"
+              className="h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-0" 
+            />
+            <img
+              src="profile.jpg"
+              alt="profile-hover"
+              className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100" 
+            />
+          </div>
+
         </div>
       </div>
-    </div></>
-
+    </>
   );
 }
