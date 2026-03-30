@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons'
 
 export default function Home() {
   return (
-       <div className="min-h-screen bg-gray-400">
+       <div className="min-h-screen ">
       <Navbar />
       <div className="font-mono p-4 md:p-8 lg:p-12">
         
